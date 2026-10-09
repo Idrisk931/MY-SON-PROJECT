@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Official FC26 Family COOKING</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<header class="hero">
+		<h1 class="hero__title">The FC26 Family COOKING!!!</h1>
+		<p class="hero__subtitle">
+			Read carefully, BOY!!.
+		</p>
+	</header>
+
+	<main>
+
+		<!-- Birth certificate -->
+		<section class="certificate" id="certificate">
+			<h2 class="certificate__heading">Certificate of Ownership</h2>
+			<dl class="certificate__details">
+				<dt>Child</dt>
+				<dd>Ian</dd>
+
+				<dt>Father</dt>
+				<dd>Idrisu</dd>
+
+				<dt>Date of birth</dt>
+				<dd>The moment he called me MEBABY!!!</dd>
+
+				<dt>Place of birth</dt>
+				<dd>In front of the TV, on his own console!</dd>
+
+				<dt>Cause of birth</dt>
+				<dd>A full weekend of being MIPUPUM</dd>
+			</dl>
+			<p class="certificate__stamp">Verified by the GODS!</p>
+		</section>
+
+		<!-- Match history -->
+		<section class="matches" id="matches">
+			<h2 class="matches__heading">Match History</h2>
+			<p class="matches__note">
+				Games Ian has won since becoming my son:
+				<strong class="matches__counter">0</strong>
+			</p>
+
+			<table class="matches__table">
+				<thead>
+					<tr>
+						<th>Period</th>
+						<th>Result</th>
+						<th>Notes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="fluke">
+						<td>Start of the weekend</td>
+						<td>Ian wins he gets COCKY</td>
+						<td>A fluke. Dad was warming up.</td>
+					</tr>
+					<tr>
+						<td>The turning point</td>
+						<td>Dad wins</td>
+						<td>Ian never recovered.</td>
+					</tr>
+					<tr>
+						<td>Rest of Saturday</td>
+						<td>Dad wins</td>
+						<td>Ian started blaming the controller.</td>
+					</tr>
+					<tr>
+						<td>All of Sunday</td>
+						<td>Dad wins</td>
+						<td>Ian could not lay a finger on me.</td>
+					</tr>
+					<tr class="highlight">
+						<td>The breaking point</td>
+						<td>Dad wins</td>
+						<td>Ian, in despair: "HATA HUNA DEM."</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<!-- Trophy cabinet -->
+		<section class="trophies" id="trophies">
+			<h2 class="trophies__heading">Trophy Cabinet</h2>
+			<div class="trophies__shelves">
+				<div class="shelf shelf--dad">
+					<h3 class="shelf__title">Dad's shelf</h3>
+					<ul class="shelf__list">
+						<li>Weekend Champion</li>
+						<li>Comeback of the Year</li>
+						<li>Undefeated Since the Turnaround</li>
+					</ul>
+				</div>
+				<div class="shelf shelf--son">
+					<h3 class="shelf__title">Ian's shelf</h3>
+					<ul class="shelf__list">
+						<li> Certificate of Participation</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Testimonials -->
+		<section class="quotes" id="quotes">
+			<h2 class="quotes__heading">What the Family Says</h2>
+			<blockquote class="quote">
+				<p>Dad, can we play one more?</p>
+				Ian, after the fifth loss
+			</blockquote>
+			<blockquote class="quote">
+				<p>The controller was lagging.</p>
+				Ian, after every loss
+			</blockquote>
+			<blockquote class="quote">
+				<p>YOu don't have a girlfriend.</p>
+				Ian, at his lowest point
+			</blockquote>
+		</section>
+
+		<!-- Call to action -->
+		<section class="callout" id="callout">
+			<h2 class="callout__heading">Need a rematch?</h2>
+			<button class="callout__button" type="button">Call Dad</button>
+			<p class="callout__response" hidden>
+				Dad is busy winning. Try again later.
+			</p>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<p>Child support is payable in FC Points.</p>
+	</footer>
+	<script>
+		const button = document.querySelector(".callout__button");
+		const response = document.querySelector(".callout__response");
+
+		button.addEventListener("click", function () {
+			response.hidden = false;
+		});
+	</script>
+</body>
+
+</html>
